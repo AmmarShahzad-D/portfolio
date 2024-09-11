@@ -3,9 +3,9 @@ import Button from './Button'
 
 export default function Main() {
   return (
-    <div className='w-full md:w-1/2 m-10 min-h-screen '>
-      <div className="name text-sky-300">CALL ME ALI</div>
-      <div className="profession text-4xl my-3 md:text-5xl">A  <span className='text-purple-800 text-4xl md:text-5xl'>Full Stack Web Developer</span> Who Hepls Enterpreneur Start their Digital Business</div>
+    <div className='w-full md:w-1/2 min-h-screen md:m-32 '>
+      <div className="name text-blue-700 text-3xl">CALL ME ALI</div>
+      <div className="profession text-5xl my-6 md:text-6xl leading-7">A  <span className='text-purple-800 text-4xl md:text-6xl leading-3'>Full Stack Web Developer</span> Who Hepls Enterpreneur Start their Digital Business</div>
       <div className='text-zinc-400'>As a full-stack web developer, I work with a wide range of technologies and frameworks, ensuring that I can deliver top-quality results for your project. </div>
       <Button value="CONTACT ME" />
       <div className='flex'>

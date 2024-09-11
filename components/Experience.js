@@ -11,7 +11,6 @@ export default function Experience() {
         <div className="text-2xl tracking-normal text-zinc-400 mb-8 ">
           E X P E R I E N CE
         </div>
-
         <a
           href="/Ammar_Shahzad_CV.pdf"
           download={"Ammar-Shahzad-CV"}
@@ -22,25 +21,30 @@ export default function Experience() {
           <span className="mx-2">DOWNLOAD CV </span>{" "}
         </a>
       </div>
+ 
 
-      {/* second column */}
-
-      <div className="">
+      <div className="experience flex flex-col  items-start justify-start  ">
         {/* First Experience  */}
-
-        <div className="experience-1 my-12 ">
+        <div className="experience-1  ">
           <p className="text-purple-800 text-xl font-bold ">
             June 2021 - present
           </p>
           <p className="font-bold text-lg">upwork</p>
           <div className="flex items-center">
             <CiLocationOn style={{ color: "red", margin: "4px" }} /> Remote
+          </div>
+
+          <div className="first-experience-explanation">
+            <h1>Full Stack developer </h1>
+            <h3>june 21 to present . 1 year</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, deleniti? Cupiditate mollitia, iusto eius ullam dolorum sit nemo voluptates delect
+              us laborum aperiam! Aliquid.</p>
           </div>
         </div>
 
         {/* Second Experience  */}
 
-        <div className="experience-1 my-12 ">
+        <div className="experience-1  ">
           <p className="text-purple-800 text-xl font-bold ">
             June 2021 - present
           </p>
@@ -48,17 +52,32 @@ export default function Experience() {
           <div className="flex items-center">
             <CiLocationOn style={{ color: "red", margin: "4px" }} /> Remote
           </div>
+
+          <div className="second-experience-explanation">
+            <h1>Full Stack developer </h1>
+            <h3>june 21 to present . 1 year</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, deleniti? Cupiditate mollitia, iusto eius ullam dolorum sit nemo voluptates delect
+              us laborum aperiam! Aliquid.</p>
+          </div>
+
         </div>
 
         {/* Third  Experience  */}
 
-        <div className="experience-1 my-12 ">
+        <div className="experience-1 ">
           <p className="text-purple-800 text-xl font-bold ">
             June 2021 - present
           </p>
           <p className="font-bold text-lg">upwork</p>
           <div className="flex items-center">
             <CiLocationOn style={{ color: "red", margin: "4px" }} /> Remote
+          </div>
+
+          <div className="second-experience-explanation">
+            <h1>Full Stack developer </h1>
+            <h3>june 21 to present . 1 year</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, deleniti? Cupiditate mollitia, iusto eius ullam dolorum sit nemo voluptates delect
+              us laborum aperiam! Aliquid.</p>
           </div>
         </div>
       </div>
@@ -66,4 +85,3 @@ export default function Experience() {
   );
 }
 
-// href="/path/to/your-cv.pdf" download="Your-CV-Name.pdf"

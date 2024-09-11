@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Main from "@/components/Main";
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <>
       <Main />
       <Experience />
+      <Contact />
     </>
   );
 }

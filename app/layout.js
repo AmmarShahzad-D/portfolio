@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   const header = (
     <header className=" top-0 left-0 w-full z-10 bg-white">
       <nav className="flex justify-between p-10 align-items-center ">
-        <div className="font-bold text-2xl">
+        <div className="font-bold  text-6xl sm:text-3xl  md:text-2xl">
           {" "}
           <span className="text-purple-800 relative before:content-['']  before:absolute before:top-0 before:left-0 before:w-1/2 before:h-1 before:bg-black  ">
             Ali{" "}
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
         {header}
-        <main className="flex-grow mt-20">{children}</main>
+        <main className="flex-grow">{children}</main>
         {footer}
       </body>
     </html>
